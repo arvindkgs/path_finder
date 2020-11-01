@@ -1,6 +1,6 @@
 # Multi-threaded PathFinder
 
-This is a java based project that can be used to find paths of multiple robots in given Grid using different. It is built to plugin desired algorithms for path finding. Supports extending existing algorithms by implementing Algorithm service interface.
+This is a java based project that can be used to find paths of multiple robots in given Grid. It is built to plugin desired algorithms for path finding. Supports extending existing algorithms by implementing Algorithm service interface.
 
 Grid is two-dimensional array. Grid can be initialized with multiple customizations using a builder. Custom constraints can be added to the grid like,
 * Lower Limit - Validates and denies movement of robot to cells below given (x,y) value
